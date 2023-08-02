@@ -1,0 +1,54 @@
+.header {
+    height: 80px;
+    background: #2c2d2f;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.inner_header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.allCardsBlock{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+.cards{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+ 
+
+.card_ {
+    border: 1px solid white;
+    width: 250px;
+    height: 410px;
+    margin-bottom: 20px;
+}
